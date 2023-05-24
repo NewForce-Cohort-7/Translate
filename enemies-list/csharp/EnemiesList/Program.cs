@@ -3,6 +3,7 @@ using System.Collections.Generic;
 
 Console.WriteLine("My Enemies List!");
 Console.WriteLine("----------------");
+
 List<Enemy> enemies = GetEnemies();
 
 foreach (Enemy myEnemy in enemies)
